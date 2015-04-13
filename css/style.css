@@ -60,7 +60,7 @@ span.infoRed {
 
 span.title {
     width: 100%;
-    background-color: #C9E0ED;
+    /*background-color: #C9E0ED;*/
     font-size: 68px;
     color: #FF3300;
     text-transform: uppercase;
@@ -78,6 +78,17 @@ hr.line {
 }
 
 p.shadow {
-    text-shadow:#50595e 1px 2px 3px;
+    text-shadow: 0 1px 0 #FF714B,
+    0 2px 0 #FF5E33,
+    0 3px 0 #FF4A19,
+    0 4px 0 #FF3300,
+    0 5px 0 #FE3600,
+    0 6px 1px rgba(228, 48, 0,.1),
+    0 0 5px rgba(204, 43, 0,.1),
+    0 1px 3px rgba(178, 38, 0,.3),
+    0 3px 5px rgba(152, 32, 0,.2),
+    0 5px 10px rgba(126, 27, 0,.25),
+    0 10px 10px rgba(102,22,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
 }
 
